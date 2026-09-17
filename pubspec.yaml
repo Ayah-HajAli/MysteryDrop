@@ -1,0 +1,29 @@
+name: mysterydrop
+description: MysteryDrop — a daily mystery, a field of theories, one reveal.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # The posters use an ultra-bold retro gothic. Drop a .ttf into assets/fonts/
+  # (Archivo Black, Bungee or Alfa Slab One all fit) and uncomment to get the
+  # exact poster feel. The app runs fine without it — it falls back to w900.
+  #
+  # fonts:
+  #   - family: Slab
+  #     fonts:
+  #       - asset: assets/fonts/ArchivoBlack-Regular.ttf
+  #         weight: 900
